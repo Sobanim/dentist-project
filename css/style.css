@@ -1,0 +1,115 @@
+/* Common classes */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.flex.justify-start {
+    justify-content: flex-start;
+}
+
+.flex.align-end {
+    align-items: flex-end;
+}
+
+.flex.justify-end {
+    justify-content: flex-end;
+    position: relative;
+}
+
+.flex.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-vertical {
+    flex-direction: column;
+}
+.flex-half {
+    flex: 50%;
+    max-width: 50%;
+}
+.btn-submit{
+    text-transform: uppercase;
+    background-color: #BA3164;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.big-head{
+    font-size: 2.4rem;
+    color: #585858;
+    text-align: center;
+}
+.big-head:after{
+    display: block;
+    height: 3px;
+    background-color:#BA3164 ;
+    content: "";
+    margin: 20px auto;
+    width: 30px;
+}
+
+
+/* End */
+.telephone-email {
+    align-items: center;
+}
+.telephone-email a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    justify-content: end;
+    margin-left: 1rem;
+}
+.telephone-email a img {
+    width: 1rem;
+}
+
+.general {
+    background-color: #ddd;
+}
+.general .logo {
+    width: 6rem;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+}
+.general nav {
+    margin-top: 3rem;
+}
+.general nav a {
+    color: #242424;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 4rem;
+}
+
+.general-description{
+    margin-top: 12rem;
+}
+.general-description h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color:#585858;
+    margin: 0;
+}
+.general-description p{
+    text-align: center;
+    font-size: 1.2rem;
+    color:#242424;
+    margin-top: 2rem;
+}
+.general-description a{
+    display: inline-block;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
