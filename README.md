@@ -1,2 +1,3 @@
 # dentist-project
-Some project which I do, but customer did not provide final design
+
+This is project for my portfolio
