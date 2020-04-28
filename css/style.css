@@ -58,6 +58,22 @@
     width: 30px;
 }
 
+.service-items{
+    flex-wrap: wrap;
+    margin: 3rem 10rem;
+}
+.service-item{
+    flex: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 425px; */
+}
+.service-item img{
+    width: 13rem;
+}
+
 
 /* End */
 .telephone-email {
@@ -133,7 +149,8 @@
 }
 .akcept-form{
     background-color: #dddddd;
-    padding-right: 10rem;
     font-size: 1.5rem;
 }
-.akcept-form
+.button-center{
+    justify-content: center;
+}
