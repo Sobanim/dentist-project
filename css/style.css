@@ -55,8 +55,19 @@
     background-color:#BA3164 ;
     content: "";
     margin: 20px auto;
+    width: 35px;
+}
+h3:after{
+    display: block;
+    height: 2px;
+    background-color:#585858 ;
+    content: "";
+    margin: 12px auto;
     width: 30px;
 }
+
+
+/* End */
 
 .service-items{
     flex-wrap: wrap;
@@ -68,14 +79,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 425px; */
+    max-width: 400px;
 }
 .service-item img{
     width: 13rem;
 }
 
-
-/* End */
 .telephone-email {
     align-items: center;
     margin-right: 2rem;
@@ -138,6 +147,7 @@
 
 .our-filosofy p{
     line-height: 2.8rem;
+    margin-bottom: 4rem;
 }
 .open-hours, .akcept-form{
     flex: 50%;
@@ -153,4 +163,32 @@
 }
 .button-center{
     justify-content: center;
+}
+.read-about-us{
+    background-color: #EEEEEE;
+}
+.read-about-us .flex{
+    justify-content: space-evenly;
+}
+.read-about-us h3{
+    text-align: center;
+    color:#585858;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.read-about-us img{
+    width: 16rem;
+}
+.workers{
+    margin: 2rem 6rem;
+}
+.workers h3{
+    text-align: center;
+}
+.dentist{
+    flex: 25%
+}
+.dentist img{
+    margin: 0 auto;
+    display: block;
 }
