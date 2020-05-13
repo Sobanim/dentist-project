@@ -65,7 +65,9 @@ h3:after{
     margin: 12px auto;
     width: 30px;
 }
-
+.text-center{
+    text-align: center;
+}
 
 /* End */
 
@@ -163,10 +165,10 @@ h3:after{
     background-color: #eeeeee;
     font-size: 1.5rem;
 }
-.open-hours h4{
+.table-name{
     text-align: center;
 }
-.open-hours table{
+.table-hours{
     margin: 0 auto;
     margin-bottom: 2rem;
 }
@@ -216,8 +218,23 @@ h3:after{
 .contact div{
     flex: 50%;
 }
-
-
+.after-text:after{
+    display: block;
+    height: 2px;
+    background-color:#585858 ;
+    content: "";
+    margin: 15px auto;
+    width: 30px;
+}
+.form-contact form{
+    margin: 0 15rem;
+    
+}
+.form-contact p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 2rem 11rem;
+}
 
 footer{
     background-color: #BA3164;

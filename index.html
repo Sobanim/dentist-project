@@ -12,9 +12,9 @@
   <body>
     <section>
       <div class="telephone-email flex justify-end">
-        <a href="tel:055/6323302">
+        <a href="tel:055/0000002">
           <img src="img/telephone.png" alt="Telephone" />
-          055/63 23 302
+          055/00 00 002
         </a>
         <a href="mailto:objednat@zubkesever.sk">
           <img src="img/email.png" alt="email" />
@@ -28,7 +28,7 @@
             <a href="#our-filosofy">Filozofia</a>
             <a href="#our-servies">Sluzby</a>
             <a href="#referencie">Referencie</a>
-            <a href="">Galeria</a>
+            <a href="#">Galeria</a>
             <a href="#our-team">Nas Tim</a>
             <a href="#contact">Kontakt</a>
           </nav>
@@ -65,7 +65,7 @@
         <div class="open-hours">
           <div>
             <h4>Ordinačné hodiny</h4>
-            <table>
+            <table class="table-hours">
               <tr>
                 <td>Pondelok:</td>
                 <td>12.00 - 18.00</td>
@@ -193,10 +193,14 @@
 
     <section id="contact">
       <h2 class="big-head">Kontakt</h2>
-      <div class="flex contant">
+      <div class="flex contact">
         <div>
-          <h4>Ordinačné hodiny</h4>
-          <table>
+          <p class="after-text text-center"><b>Objednajte sa</b> počas ordinačných hodín <b>telefonicky.</b></p>
+
+          <p class="text-center">Tel: 055/0000002 <br> Mobil: 0900 090 008
+            </p>
+          <h4 class="table-name after-text">Ordinačné hodiny</h4>
+          <table class="table-hours">
             <tr>
               <td>Pondelok:</td>
               <td>12.00 - 18.00</td>
@@ -219,8 +223,8 @@
             </tr>
           </table>
         </div>
-        <div>
-          <p>
+        <div class="form-contact">
+          <p class="after-text">
             <b>Objednajte sa</b> kedykoľvek <b>objednávacím formulárom</b>. Zavoláme Vám na upresnenie termínu!
           </p>
           <form action="" class="flex flex-vertical">
@@ -237,9 +241,18 @@
             <input type="tel" name="" id="">
 
             <label for="">dôvod objednania:</label>
-            <input type="text" name="" id="">
+            <textarea></textarea>
+
+            <div class="flex">
+              <input type="checkbox" name="" id="">
+              <label for="">Súhlasím so spracovaním osobných údajov</label>
+            </div>
           </form>
+          <button class="btn-submit">OBJEDNAŤ SA</button>
         </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.303978940536!2d21.246380115817416!3d48.737889817137365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee0f15bc80b0b%3A0x60a34545e4c12b42!2s1.%20poschodie%2C%20Hlinkova%20619%2F1%2C%20040%2001%20Ko%C5%A1ice!5e0!3m2!1sru!2ssk!4v1589366467645!5m2!1sru!2ssk" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </section>
 
