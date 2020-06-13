@@ -37,7 +37,7 @@
 }
 .btn-submit{
     text-transform: uppercase;
-    background-color: #BA3164;
+    background-color: #4a9396;
     color: white;
     padding: 1rem 1.5rem;
     border-radius: 20px;
@@ -52,7 +52,7 @@
 .big-head:after{
     display: block;
     height: 3px;
-    background-color:#BA3164 ;
+    background-color:#4a9396 ;
     content: "";
     margin: 20px auto;
     width: 35px;
@@ -97,7 +97,7 @@ body{
     left:0;
     bottom:0;
     right:0;
-    background-color: #BA3164;
+    background-color: #4a9396;
     opacity: 0.85;
     display: none;
     color: white;
@@ -130,22 +130,23 @@ body{
     background-color: #ddd;
 }
 .general .logo {
-    width: 6rem;
+    width: 8rem;
     margin-top: 2.5rem;
     margin-left: 4rem;
 }
-.general nav {
+.general .nav {
     margin-top: 3rem;
+    align-items: center;
 }
-.general nav a {
+.general .nav a {
     color: #242424;
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 4rem;
     transition: 0.5s;
 }
-.general nav a:hover{
-    color:#BA3164;
+.general .nav a:hover{
+    color:#4a9396;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -233,7 +234,7 @@ body{
 .dentist img{
     margin: 0 auto;
     display: block;
-    width: 20rem;
+    width: 19rem;
 }
 .contact{
 
@@ -264,7 +265,7 @@ body{
 }
 
 footer{
-    background-color: #BA3164;
+    background-color: #4a9396;
     color: white;
     text-align: center;
     justify-content: center !important;
