@@ -272,3 +272,12 @@ footer{
     align-items: center;
     height: 2.5rem;
 }
+
+@media (max-width: 1400px){
+    .general .nav a{
+        margin-right: 2rem;
+    }
+    .workers{
+        flex-wrap: wrap;
+    }
+}
