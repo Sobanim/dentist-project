@@ -1,0 +1,22 @@
+{
+  "name": "some-dentist-project",
+  "version": "1.0.0",
+  "description": "my training project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobanim/dentist-project.git"
+  },
+  "author": "Dmytro Soboliev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sobanim/dentist-project/issues"
+  },
+  "homepage": "https://github.com/Sobanim/dentist-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
