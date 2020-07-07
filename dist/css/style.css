@@ -45,6 +45,12 @@
   border-radius: 20px;
   text-decoration: none;
   font-size: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+.btn-submit:hover {
+  background-color: #63cbcc;
+  transition: all 0.3s ease-out;
 }
 
 .big-head {
@@ -216,6 +222,10 @@ body {
   font-size: 1.5rem;
 }
 
+.open-hours h4 {
+  text-align: center;
+}
+
 .table-name {
   text-align: center;
 }
@@ -263,6 +273,7 @@ body {
 
 .dentist {
   flex: 25%;
+  text-align: center;
 }
 
 .dentist .description {
@@ -287,6 +298,22 @@ body {
   content: "";
   margin: 15px auto;
   width: 30px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.center-button .btn-submit {
+  border: none;
+}
+
+.form-contact input,
+.form-contact textarea {
+  border: 1.3px solid #4a9396;
 }
 
 .form-contact form {
