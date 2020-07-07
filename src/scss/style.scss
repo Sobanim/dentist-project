@@ -1,4 +1,4 @@
-/* Common classes */
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,11 @@
     border-radius: 20px;
     text-decoration: none;
     font-size: 1rem;
+    transition: all 0.3s ease-out;
+    &:hover{
+        background-color:#63cbcc;
+        transition: all 0.3s ease-out;
+    }
 }
 .big-head{
     font-size: 2.4rem;
@@ -188,6 +193,9 @@ body{
 .open-hours{
     background-color: #eeeeee;
     font-size: 1.5rem;
+    h4{
+        text-align: center;
+    }
 }
 .table-name{
     text-align: center;
@@ -225,7 +233,8 @@ body{
     text-align: center;
 }
 .dentist{
-    flex: 25%
+    flex: 25%;
+    text-align: center;
 }
 .dentist .description{
     line-height: 1.6rem;
@@ -236,9 +245,7 @@ body{
     display: block;
     width: 19rem;
 }
-.contact{
 
-}
 .contact div{
     flex: 50%;
 }
@@ -250,6 +257,23 @@ body{
     margin: 15px auto;
     width: 30px;
 }
+
+.center-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .btn-submit{
+        border: none; 
+    }
+}
+
+.form-contact{
+    input, textarea{
+        border: 1.3px solid #4a9396;
+    }
+}
+
 .form-contact form{
     margin: 0 15rem;
     
